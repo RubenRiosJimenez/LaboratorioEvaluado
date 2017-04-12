@@ -63,7 +63,20 @@ public class TestStackTDD {
 		
 		assertEquals(pop,(7));
 		
+	}
+	
+	@Test
+	public void AgregarOchoYNueveHacerPopDosVecesDevuelveNueveYOcho(){
+		PilaNoVacia = pilaTDD.agregarOchoYNueve();
 		
+		pilaTDD.AgregarNumero(8);
+		pilaTDD.AgregarNumero(9);
+		
+		int pop = pilaTDD.hacerPop();
+		int pop2= pilaTDD.hacerPop();
+		
+		assertEquals(pop,(9));
+		assertEquals(pop,(8));
 	}
 
 }

@@ -43,5 +43,10 @@ public class LabTestTDD {
 		return 7;
 		
 	}
+
+	public boolean agregarOchoYNueve() {
+		// TODO Auto-generated method stub
+		return false;
+	}
 	
 }
