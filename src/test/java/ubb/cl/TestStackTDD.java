@@ -51,5 +51,19 @@ public class TestStackTDD {
 		
 		assertEquals(PilaNoVacia,(false));
 	}
+	
+	@Test
+	public void AgregarSeisYSieteHacerPopDevuelveSiete(){
+		PilaNoVacia = pilaTDD.agregarSeisYSiete();
+		
+		pilaTDD.AgregarNumero(6);
+		pilaTDD.AgregarNumero(7);
+		
+		int pop = pilaTDD.hacerPop();
+		
+		assertEquals(pop,(7));
+		
+		
+	}
 
 }

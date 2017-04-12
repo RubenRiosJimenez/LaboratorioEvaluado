@@ -33,4 +33,15 @@ public class LabTestTDD {
 		// TODO Auto-generated method stub
 		return 2;
 	}
+
+	public boolean agregarSeisYSiete() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+	public int hacerPop(){
+		return 7;
+		
+	}
+	
 }
