@@ -20,5 +20,11 @@ public class TestStackTDD {
 		
 		assertEquals(PilaVacia,(true));
 	}
+	@Test
+	public void stackNoEst·Vacia(){
+		boolean PilaNoVacia = pilaTDD.agregarTres();
+		
+		assertEquals(PilaNoVacia,(false));
+	}
 
 }
