@@ -39,5 +39,17 @@ public class TestStackTDD {
 		
 		assertEquals(PilaNoVacia,(false));
 	}
+	
+	@Test
+	public void AgregarCuatroYCincoElTamañoDelSotckEsDos(){
+		PilaNoVacia = pilaTDD.agregarCuatroYCinco();
+		
+		pilaTDD.AgregarNumero(4);
+		pilaTDD.AgregarNumero(5);
+		
+		int tamanio = pilaTDD.RetornaTamanio();
+		
+		assertEquals(PilaNoVacia,(false));
+	}
 
 }

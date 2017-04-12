@@ -23,4 +23,14 @@ public class LabTestTDD {
 		// TODO Auto-generated method stub
 		
 	}
+
+	public boolean agregarCuatroYCinco() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public int RetornaTamanio() {
+		// TODO Auto-generated method stub
+		return 2;
+	}
 }
