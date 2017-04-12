@@ -1,8 +1,14 @@
 package ubb.cl;
 
-public class LabTestTDD {
+import java.util.Stack;
 
-	public void CrearPila(){
+public class LabTestTDD {
+	Stack<String> pila = new Stack<String>();
+	public boolean estaVacia(){
+		if(pila.isEmpty())
+		return true;
+		else
+			return false;
 		
 	}
 }
