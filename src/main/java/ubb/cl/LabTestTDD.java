@@ -14,4 +14,13 @@ public class LabTestTDD {
 		return false;
 		
 	}
+	
+	public boolean agregarUnoYDos(){
+		return false;
+	}
+
+	public void AgregarNumero(int i) {
+		// TODO Auto-generated method stub
+		
+	}
 }
